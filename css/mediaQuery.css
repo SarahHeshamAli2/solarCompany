@@ -3,13 +3,26 @@
     --normalFont: 16px;
  }
  
- 
- 
- @media only screen and (min-width: 600px) and (max-width: 768px){
 
 
 
+ @media only screen and (min-width: 365px) and (max-width: 768px){
 
+
+
+    .cardContent {
+        overflow: hidden;
+    }
+    
+    .links li, .footerLinks li, .lastLinks li {
+        margin: 0 5px;
+    }
+    .footerLinks li {
+        margin: 0 10px;
+    }
+    .footerLinks {
+        justify-content: center;
+    }
 
     .callUs {
         display: none;
@@ -99,7 +112,8 @@
 }
 
 .lastLinks {
-    justify-content: flex-end;
+    justify-content:center;
+
 }
 
 }
