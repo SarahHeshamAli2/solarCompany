@@ -25,6 +25,13 @@
   .leftEnergySection h3 {
     font-size: var(--smallFont);
   }
+
+.callUs {
+    width: 50%;
+}
+.callUs p.callUsNumber  {
+    font-size: 12px;
+}
 }
 
 
@@ -48,9 +55,10 @@
         justify-content: center;
     }
 
-    .callUs {
-        display: none;
+    .callUs p {
+       font-size: var(--normalFont);
     }
+ 
 
     h1 , .installers h2 ,.powerSectionContent h2 ,.repairLayer h2 ,.ourValuesSection h3 {
         font-size: var(--smallFont);
