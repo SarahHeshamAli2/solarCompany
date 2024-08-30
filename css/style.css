@@ -1,0 +1,657 @@
+
+
+/* 
+universal selector to normalize default values till we use css framework
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* 
+variables for main proprities
+
+*/
+
+:root {
+
+--mainColor : #3CAB90 ;
+--mainBtnPadding : 12px 34px ;
+--mainBtnRadius : 109px;
+--mainYellowColor : #FFBB1C;
+
+}
+
+
+
+.headerBackgroundImg{
+    background-image: url('../assets/11e2af1eb6a5ca79b4154a62740357c1.jpeg');
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.logo img {
+    width: 50px;
+}
+.links a , .footerLinks a ,.lastLinks a{
+    text-decoration: none;
+    color: white;
+    transition: .25s all;
+}
+.links li , .footerLinks li ,.lastLinks li {
+    list-style: none;
+    margin: 0 20px;
+}
+.links ul , .lastLinks ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.links li:hover a {
+
+background-color: rgba(255, 255, 255, 0.227);
+padding: 5px;
+border-radius: 2px;
+}
+
+nav {
+
+    background-color: #0B9586;
+    padding: 10px 0;
+    font-family: "Inter", sans-serif;
+
+}
+.navInnerContent {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.callUs {
+    color: white;
+    text-align: end;
+}
+.callUsNumber , .card h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.innerContent {
+  color: white;
+ width: 50%;
+}
+
+.headerContent {
+    display: flex;
+    height: 100%;
+    width: 75%;
+    margin: auto;
+    
+}
+
+h1{
+    font-size: 52px;
+    font-weight: 600;
+}
+.innerContent p {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+
+.headerButton {
+    padding: var(--mainBtnPadding);
+    border-radius: var(--mainBtnRadius);
+    border-color: transparent;
+}
+
+
+
+.layer {
+    background-color: rgba(43, 32, 32, 0.474);
+    width: 100%;
+    height: 100%;
+}
+
+.progressBar {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.outBar {
+    background-color: #575757;
+    width: 20%;
+}
+.innerBar {
+    background-color: white;
+    width: 30%;
+    height: 3px;
+}
+.progressNumbers {
+    color: white;
+    margin: 0 20px;
+}
+.innerContent {
+    margin: 50px 0;
+    padding: 50px 0;
+}
+
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.collab ul {
+    list-style: none;
+}
+
+.collabNum {
+    color: #84BD3A;
+    font-weight: 600;
+    font-size: 20px;
+}
+.collabText {
+    font-size: 20px;
+    font-weight: 600;
+}
+.collab {
+    margin: 30px 0;
+}
+.collab li {
+    margin: 20px 0;
+}
+
+.installers {
+    margin: 40px 0;
+    display: flex;
+}
+.installers h2 {
+    font-size: 42px;
+    margin: 10px 0;
+}
+.installers p {
+    line-height: 24px;
+    margin: 20px 0;
+}
+
+.innerRightInstallers img {
+    width: 469px;
+    border-radius: 12px;
+    height: 552px;
+}
+
+.innerLeftInstallers {
+    padding: 0 40px;
+}
+
+.yellowSection img {
+    width: 90px;
+}
+.yellowSection {
+    background-color: var(--mainYellowColor);
+    padding: var(--mainBtnPadding);
+    border-radius: 12px;
+    width: 266px;
+    height: 208px;
+    position: absolute;
+    top: 50%;
+        right: 60%;
+}
+.yellowSection p {
+    font-size: 18px;
+    line-height: 20.95px;
+    margin: 15px 0;
+}
+.rightInstallers {
+    position: relative;
+    margin-left: 50px;
+}
+
+.powerSection {
+    background-image: url('../assets//greenPowerSection.png');
+    background-size: 100% 100%;
+    align-items: center;
+    margin: 20px 0;
+    padding: 30px;
+
+}
+
+.powerSectionContent {
+    color: white;
+   padding: 20px 0;
+    width: 55%;
+    
+}
+
+.powerSectionContent h2 , .solarKitsTypo h2 , .repairLayer h2 ,.leftEnergySection h3 , .ourValuesSection h3 {
+    font-size: 42px;
+   
+}
+.powerSectionContent p {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 30px 0;
+}
+.bgYellow {
+    background-color: var(--mainYellowColor);
+    transition: 0.25s all;
+}
+
+
+
+ .powerSection .headerButton:hover {
+    background-color: #bf8602;
+    color: white;
+}
+
+
+.cursorPointer{
+    cursor: pointer;
+}
+
+.solarKitsTypo {
+    text-align: center;
+width: 50%;
+margin: auto;
+}
+.solarKitsTypo p {
+    margin: 20px 0;
+}
+.solarKits {
+    margin: 30px 0;
+}
+.card {
+  
+  box-shadow: 0px 4px 30px 0px #0000000D;
+    margin: 0 20px;
+
+    
+  
+}
+.card img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card p {
+  
+    line-height: 24px;
+
+    margin-top: 20px;
+
+}
+.cardContent {
+    padding: 0 20px;
+    
+}
+
+.card button ,.rightEnergySection button{
+    border: 0;
+    color: #3CAB90;
+    background-color: transparent;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.solarKitsContent {
+    display: flex;
+    align-items: center;
+}
+.truncatedText  {
+       width: 270px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+  
+   
+}
+
+.card .truncatedText {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+.repairSection {
+    background-image: url('../assets/repairBg.png');
+    background-size: cover;
+    padding: 50px 0;
+
+}
+
+
+.repairLayer {
+    color: white;
+    text-align: center;
+    width: 65%;
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 50px;
+    border-radius: 12px;
+    margin: 10px auto;
+}
+.repairLayer p  {
+    margin: 20px 0;
+    line-height: 28px;
+}
+.energySection{
+    background-color: #FFBB1C0D;
+    
+}
+
+.energyIcon i {
+    color: white;
+    background-color: #3CAB90;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 0px 8px rgba(60,171,144,0.22);
+-moz-box-shadow: 1px 1px 0px 8px rgba(60,171,144,0.22);
+box-shadow: 1px 1px 0px 8px rgba(60,171,144,0.22);
+
+}
+.leftEnergySection {
+
+    padding: 30px;
+}
+.leftEnergySection h3 {
+    margin: 20px 0;
+}
+
+.energyCard , .ourValuesCard .card {
+ 
+    border: 1px solid #3CAB90;
+    background-color: #3CAB900D;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 20px;
+    margin: 20px;
+  
+}
+.energyCard img {
+    width: 100%;
+    border-radius: 12px;
+}
+.rightEnergySection {
+    width: 85%;
+}
+.leftEnergySection {
+    width: 35%;
+}
+.energyCard p {
+    margin: 10px 0;
+}
+
+
+
+.upperEnergyCard ,.lowerEnergyCard
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerEnergy {
+    display: flex;
+    padding: 20px 0;
+
+
+}
+
+.ourValuesTypo {
+    text-align: center;
+}
+
+.ourValuesSection{
+
+    margin: 30px 0;
+}
+
+.ourValuesSection p {
+    margin: 20px 0;
+}
+
+.ourValuesCard .card {
+    width: 33%;
+
+}
+
+.ourValuesCard i {
+    color: var(--mainColor);
+    font-size: 40px;
+}
+
+.ourValuesCard h4 {
+    margin: 20px 0;
+    font-size: 20px;
+}
+.ourValuesCard{
+    display: flex;
+}
+
+.leftWhatTheySay i {
+    font-size: 40px;
+    color: var(--mainColor);
+}
+.leftWhatTheySay  {
+    width: 30%;
+}
+.upperWhatTheySay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whatTheySay {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    align-items: center;
+ 
+}
+
+.rightWhatTheySay {
+    width: 50%;
+}
+.dotsIcon .greyDot {
+color:#6B6B6B;
+font-size: 0.5rem;   
+}
+.dotsIcon i {
+    font-size: 0.5rem;  
+    
+    color: #D9D9D9;
+    margin: 0 2px;
+
+}
+
+.upperWhatTheySay p {
+    font-weight: 700;
+    color: var(--mainColor);
+}
+
+.rightWhatTheySay .p {
+    font-size: 24px;
+    line-height: 36px;
+}
+.personImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 6px;
+}
+
+.personImg img {
+    width: 100%;
+  
+}
+
+.leftSlider {
+    display: flex;
+}
+.rightWhatTheySay .sliderTypo {
+    margin: 3px 0;
+}
+
+.whatTheySaySlider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rightSlider{
+    display: flex;
+}
+
+.sliderArrow {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    transition: 0.25s all;
+}
+
+.sliderArrow i {
+font-size: 25px;
+}
+.sliderArrow:hover {
+    background-color: rgba(0, 0, 0, 0.308);
+    color: white;
+}
+.rightWhatTheySay {
+    background-color: #3CAB900F;
+    padding: 30px;
+    border-radius: 24px;
+}
+.whatTheySay h3 {
+    margin: 20px 0;
+}
+.footerLogo  {
+    width: 185px;
+}
+.footerLogo img {
+    width: 100%;
+}
+footer {
+    background-color: #283646;
+    padding: 30px 0;
+}
+.footerLinks ul {
+    display: flex;
+}
+.footerSubscr p {
+    color: white;
+    
+}
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.yourEmailAdress {
+    background-color: #FFFFFF17;
+    border: 2px solid #B3BDC7;
+    border-radius: 38px;
+    
+}
+.yourEmailAdress p {
+    color: #92989F;
+    padding: 0 15px;
+}
+
+.yourEmailAdress button {
+    background-color: var(--mainYellowColor);
+ 
+        color: white;
+        border-color: transparent;
+        padding: var(--mainBtnPadding);
+        border-radius: 100px;
+        transition: 0.25s all;
+}
+
+.yourEmailAdress {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+hr {
+   color: red;
+}
+.horizontalLine {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #71777D;
+    margin: 2.5rem 0;
+    padding: 0;
+}
+.lastLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lastLinks ul li a , .lastLinks span {
+    color: #92989F;
+}
+.lastLinks li {
+    
+    border-right:  1px solid #92989F;
+  
+
+
+}
+
+.lastLinks a {
+    margin-right:10px ;
+}
+
+.headerButton:first-child {
+    
+
+    background-color: var(--mainColor);
+    color: white;
+    margin: 0 10px;
+    transition: 0.25s all;
+    cursor: pointer;
+
+
+}
+
+.headerButton:nth-child(2) {
+
+    background-color: var(--mainYellowColor);
+    transition: 0.25s all;
+    cursor: pointer;
+
+}
+
+.headerButton:first-child:hover {
+    background-color: #0B9586;
+
+}
+
+.headerButton:nth-child(2):hover {
+    background-color: #bf8602;
+    color: white;
+}
+.yourEmailAdress button:hover {
+    background-color:  #bf8602 ;
+}

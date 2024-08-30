@@ -1,0 +1,203 @@
+ :root {
+    --smallFont: 32px;
+    --normalFont: 16px;
+ }
+ 
+ 
+ 
+ @media only screen and (min-width: 600px) and (max-width: 768px){
+
+
+
+
+
+    .callUs {
+        display: none;
+    }
+
+    h1 , .installers h2 ,.powerSectionContent h2 ,.repairLayer h2 ,.ourValuesSection h3 {
+        font-size: var(--smallFont);
+    }
+
+
+    .rightWhatTheySay .p , .innerContent p  {
+        font-size: var(--normalFont);
+    }
+
+   
+
+    .sliderArrow {
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+    }
+    .sliderArrow i {
+        font-size: 10px;
+    }
+
+    .headerButton  {
+        padding: 10px;
+        margin: 3px 0;
+    }
+
+
+    .innerRightInstallers img {
+        width: 220px;
+        height: auto;
+    }
+.rightInstallers {
+    margin: 0;
+}
+
+
+.yellowSection  {
+    top: 20%;
+    left: -50px;
+    width: 160px;
+    height: 160px;
+}
+
+.yellowSection img {
+    width: 50px;
+}
+
+.yellowSection p {
+    font-size: 11px;
+}
+
+
+
+
+.powerSection {
+    padding: 0;
+}
+
+.solarKitsContent , .innerEnergy ,.installers , .ourValuesCard ,.whatTheySay ,.upperEnergyCard, .lowerEnergyCard ,.footerContent{
+    display: block;
+}
+
+
+.repairLayer {
+    padding: 20px;
+}
+
+.repairSection , .powerSection , .headerBackgroundImg{
+    background-size: cover;
+}
+
+
+
+.ourValuesCard .card ,.energyCard ,.energyCard img ,.leftWhatTheySay ,.leftEnergySection ,.rightEnergySection ,.rightWhatTheySay ,.innerContent ,.repairLayer{
+    width: 100%;
+
+}
+
+
+
+.yourEmailAdress {
+    justify-content: space-between;
+}
+
+.lastLinks {
+    justify-content: flex-end;
+}
+
+}
+
+
+@media only screen and (min-width: 769px) and (max-width:990px){
+
+    .innerRightInstallers img {
+        width: 250px;
+        height: auto;
+    }
+    .yellowSection{
+        width: 180px;
+        height: 180px;
+        top: 20%;
+        left: -100px;
+    }
+
+    .yellowSection img {
+        width: 40px;
+    }
+    .solarKitsContent ,.ourValuesCard {
+        flex-wrap: wrap;
+    }
+    .solarKitsContent .card {
+        width: 50%;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    .energyCard ,.energyCard img ,.leftEnergySection ,.rightEnergySection , .repairLayer , .rightWhatTheySay,.leftWhatTheySay{
+        width: 100%;
+    }
+    .innerEnergy ,.installers,.whatTheySay {
+        display: block;
+    }
+    .ourValuesCard .card {
+        width: 50%;
+        margin: 0;
+    
+    }
+  
+    .repairLayer h2 ,.leftEnergySection h3 ,.installers h2 ,.powerSectionContent h2 ,.whatTheySay h3{
+        font-size: var(--smallFont);
+    }
+
+.headerContent {
+    justify-content: center;
+    width: 100%;
+}
+.innerContent {
+    width: 75%;
+}
+.repairLayer ,.rightWhatTheySay {
+    padding: 10px;
+}
+
+    .headerButton:nth-child(2){
+        margin: 2px 0;
+    }
+    .innerContent {
+        margin: 0;
+    }
+    .ourValuesCard .card {
+        width: calc(100% / 2 - 6px);
+        margin:  2px;
+        
+    }
+}
+
+@media only screen and (min-width:991px) and (max-width : 1300px){
+    .innerRightInstallers img {
+        width: 300px;
+        height: auto;
+    }
+.yellowSection {
+    width: 190px;
+    height: 190px;
+    top: 20%;
+}
+.yellowSection img {
+    width: 60px;
+   
+}
+.solarKitsContent {
+    justify-content: center;
+}
+
+.energyCard, .ourValuesCard .card {
+    width: 50%;
+}
+.energyCard img ,.repairLayer {
+    width: 100%;
+}
+
+}
+
+/* 
+hamburger menu for smaller screens
+*/
+
