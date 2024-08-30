@@ -3,7 +3,7 @@
     --normalFont: 16px;
  }
  
-@media screen and (max-width : 398px) {
+@media screen and (max-width : 400px) {
     .lastLinks ul {
         display: block;
         margin: 3px 0;
