@@ -4,21 +4,35 @@
  }
  
 @media screen and (max-width : 398px) {
-    
-    .lastLinks a {
-
-        margin-right: 0;
+    .lastLinks ul {
+        display: block;
+        margin: 3px 0;
     }
-    .footerLinks ul {
-        justify-content: center;
+    .lastLinks ul li {
+        border-right: unset;
+        margin: 10px 0;
     }
-
+  .lastLinks {
+    display: block;
+  }
+  .powerSectionContent {
+    width: 100%;
+  }
+  .footerLogo img {
+    width: 75%;
+    margin: 5px 0;
+  }
+  .leftEnergySection h3 {
+    font-size: var(--smallFont);
+  }
 }
 
 
  @media only screen and (min-width: 365px) and (max-width: 768px){
 
-
+    .footerLinks ul {
+        justify-content: center;
+    }
 
     .cardContent {
         overflow: hidden;
